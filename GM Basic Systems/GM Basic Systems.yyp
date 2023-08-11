@@ -10,7 +10,12 @@
     "name": "Default",
   },
   "defaultScriptType": 1,
-  "Folders": [],
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"_Packages","folderPath":"folders/_Packages.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Alphish","folderPath":"folders/_Packages/Alphish.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Basic Systems","folderPath":"folders/_Packages/Alphish/Basic Systems.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transitions","folderPath":"folders/_Packages/Alphish/Basic Systems/Transitions.yy",},
+  ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
@@ -19,6 +24,12 @@
   },
   "resources": [
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ui_FadeOut","path":"objects/ui_FadeOut/ui_FadeOut.yy",},},
+    {"id":{"name":"syspr_Transition","path":"sprites/syspr_Transition/syspr_Transition.yy",},},
+    {"id":{"name":"sys_Transition","path":"objects/sys_Transition/sys_Transition.yy",},},
+    {"id":{"name":"funcs_Transition","path":"scripts/funcs_Transition/funcs_Transition.yy",},},
+    {"id":{"name":"ui_FadeIn","path":"objects/ui_FadeIn/ui_FadeIn.yy",},},
+    {"id":{"name":"struct_TransitionBuilder","path":"scripts/struct_TransitionBuilder/struct_TransitionBuilder.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

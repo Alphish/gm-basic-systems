@@ -10,6 +10,7 @@
     {"name":"inst_56DA6BBF","path":"rooms/rm_Red/rm_Red.yy",},
     {"name":"inst_50E9AD55","path":"rooms/rm_Red/rm_Red.yy",},
     {"name":"inst_353E0054","path":"rooms/rm_Red/rm_Red.yy",},
+    {"name":"inst_3D279503","path":"rooms/rm_Red/rm_Red.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -25,6 +26,10 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_RoomGoto","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"propertyId":{"name":"target_room","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"value":"rm_Blue",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_RoomGoto","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"propertyId":{"name":"room_name","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"value":"Blue room",},
           ],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":1152.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D279503","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ui_RoomGoto","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_RoomGoto","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"propertyId":{"name":"room_name","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"value":"Events test",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_RoomGoto","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"propertyId":{"name":"target_room","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},"value":"rm_EventsDemo",},
+          ],"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":128.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190146,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

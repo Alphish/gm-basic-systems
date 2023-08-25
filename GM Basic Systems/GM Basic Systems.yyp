@@ -17,6 +17,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Events","folderPath":"folders/_Packages/Alphish/Basic Systems/Events.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transitions","folderPath":"folders/_Packages/Alphish/Basic Systems/Transitions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Demo","folderPath":"folders/Demo.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Events","folderPath":"folders/Demo/Events.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -26,6 +27,8 @@
   },
   "resources": [
     {"id":{"name":"ui_FadeOut","path":"objects/ui_FadeOut/ui_FadeOut.yy",},},
+    {"id":{"name":"obj_EventDemoSubject","path":"objects/obj_EventDemoSubject/obj_EventDemoSubject.yy",},},
+    {"id":{"name":"rm_EventsDemo","path":"rooms/rm_EventsDemo/rm_EventsDemo.yy",},},
     {"id":{"name":"syspr_Transition","path":"sprites/syspr_Transition/syspr_Transition.yy",},},
     {"id":{"name":"spr_RoomGoto","path":"sprites/spr_RoomGoto/spr_RoomGoto.yy",},},
     {"id":{"name":"sys_Transition","path":"objects/sys_Transition/sys_Transition.yy",},},
@@ -37,12 +40,14 @@
     {"id":{"name":"rm_Blue","path":"rooms/rm_Blue/rm_Blue.yy",},},
     {"id":{"name":"struct_EventSubject","path":"scripts/struct_EventSubject/struct_EventSubject.yy",},},
     {"id":{"name":"struct_TransitionBuilder","path":"scripts/struct_TransitionBuilder/struct_TransitionBuilder.yy",},},
+    {"id":{"name":"obj_EventDemoObserver","path":"objects/obj_EventDemoObserver/obj_EventDemoObserver.yy",},},
     {"id":{"name":"rm_Red","path":"rooms/rm_Red/rm_Red.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Red","path":"rooms/rm_Red/rm_Red.yy",},},
     {"roomId":{"name":"rm_Green","path":"rooms/rm_Green/rm_Green.yy",},},
     {"roomId":{"name":"rm_Blue","path":"rooms/rm_Blue/rm_Blue.yy",},},
+    {"roomId":{"name":"rm_EventsDemo","path":"rooms/rm_EventsDemo/rm_EventsDemo.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

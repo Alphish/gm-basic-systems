@@ -32,7 +32,10 @@ function AggregateBinding(_calculation, _bindings) : ValueBinding(true) construc
     /// subscribe to value changes of bindings that provide their values
     /// @ignore
     static link_bindings = function() {
-        if (is_array(bindings)) {
+        if (is_instanceof(bindings, ValueBinding)) {
+            var _sub = bindings.when_changed.subscribe(self, self.check_value);
+            array_push(binding_subs, _sub);
+        } else if (is_array(bindings)) {
             array_foreach(bindings, method(self, function(_binding) {
                 if (!is_instanceof(_binding, ValueBinding))
                     return;
@@ -48,9 +51,6 @@ function AggregateBinding(_calculation, _bindings) : ValueBinding(true) construc
                 var _sub = _binding.when_changed.subscribe(self, self.check_value);
                 array_push(binding_subs, _sub);
             }));
-        } else if (is_instanceof(bindings, ValueBinding)) {
-            var _sub = bindings.when_changed.subscribe(self, self.check_value);
-            array_push(binding_subs, _sub);
         }
     }
     
@@ -72,7 +72,9 @@ function AggregateBinding(_calculation, _bindings) : ValueBinding(true) construc
     
     /// @ignore
     static prepare_input = function() {
-        if (is_array(bindings)) {
+        if (is_instanceof(bindings, ValueBinding)) {
+            return bindings.get_value();
+        } else if (is_array(bindings)) {
             return array_map(bindings, binding_resolve);
         } else if (is_struct(bindings)) {
             var _result = {};
@@ -81,7 +83,7 @@ function AggregateBinding(_calculation, _bindings) : ValueBinding(true) construc
             }));
             return _result;
         } else {
-            return binding_resolve(bindings);
+            return bindings;
         }
     }
     

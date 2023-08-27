@@ -1,10 +1,10 @@
 /// feather ignore GM2043
 
-/// @func AggregateBinding(calculation,bindings)
+/// @func CompositeBinding(calculation,bindings)
 /// @desc A value binding that collects values from other bindings and calculates a new value from them.
 /// @arg {Function} calculation     The function that processes the bound values.
 /// @arg {Any} bindings             The bindings that provide the values for calculations.
-function AggregateBinding(_calculation, _bindings) : ValueBinding(true) constructor {
+function CompositeBinding(_calculation, _bindings) : ValueBinding(true) constructor {
     if (is_undefined(_calculation))
         return;
     
@@ -24,9 +24,9 @@ function AggregateBinding(_calculation, _bindings) : ValueBinding(true) construc
     /// @desc Creates a binding that collects values from other bindings and calculates a new value from them.
     /// @arg {Function} calculation     The function that processes the bound values.
     /// @arg {Any} bindings             The bindings that provide the values for calculations.
-    /// @returns {Struct.AggregateBinding}
+    /// @returns {Struct.CompositeBinding}
     static create = function(_calculation, _bindings) {
-        return new AggregateBinding(_calculation, _bindings);
+        return new CompositeBinding(_calculation, _bindings);
     }
     
     /// subscribe to value changes of bindings that provide their values
@@ -98,4 +98,4 @@ function AggregateBinding(_calculation, _bindings) : ValueBinding(true) construc
 
 // initialising static properties
 var _base_dummy = new ValueBinding(false);
-var _dummy = new AggregateBinding(undefined, undefined);
+var _dummy = new CompositeBinding(undefined, undefined);

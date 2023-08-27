@@ -39,7 +39,7 @@
     {"id":{"name":"spr_RoomGoto","path":"sprites/spr_RoomGoto/spr_RoomGoto.yy",},},
     {"id":{"name":"sys_Transition","path":"objects/sys_Transition/sys_Transition.yy",},},
     {"id":{"name":"funcs_Transition","path":"scripts/funcs_Transition/funcs_Transition.yy",},},
-    {"id":{"name":"struct_AggregateBinding","path":"scripts/struct_AggregateBinding/struct_AggregateBinding.yy",},},
+    {"id":{"name":"struct_CompositeBinding","path":"scripts/struct_CompositeBinding/struct_CompositeBinding.yy",},},
     {"id":{"name":"funcs_Binding","path":"scripts/funcs_Binding/funcs_Binding.yy",},},
     {"id":{"name":"base_ValueBinding","path":"scripts/base_ValueBinding/base_ValueBinding.yy",},},
     {"id":{"name":"struct_DescriptionBinding","path":"scripts/struct_DescriptionBinding/struct_DescriptionBinding.yy",},},

@@ -25,7 +25,6 @@ function EventSubject() constructor {
         var _sub_index = array_length(subs);
         subs[_sub_index] = _sub;
         subs_map[$ string(ptr(_sub))] = _sub_index;
-        show_debug_message(subs_map);
         return _sub;
     }
     

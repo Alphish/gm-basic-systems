@@ -27,3 +27,12 @@ summary = DescriptionBinding.from_args(
     "Strength: {0}, Agility: {1}, Intellect: {2}, Overall: {3}",
     str_total, agi_total, int_total, overall_total
     );
+
+summary_color = CompositeBinding.create(function(_input) {
+    if (_input < 20)
+        return c_red;
+    else if (_input < 40)
+        return c_yellow;
+    else
+        return c_lime;
+}, overall_total);

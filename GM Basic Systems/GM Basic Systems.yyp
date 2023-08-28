@@ -46,6 +46,7 @@
     {"id":{"name":"struct_DescriptionBinding","path":"scripts/struct_DescriptionBinding/struct_DescriptionBinding.yy",},},
     {"id":{"name":"ui_FlagIcon","path":"objects/ui_FlagIcon/ui_FlagIcon.yy",},},
     {"id":{"name":"rm_BindingsDemo","path":"rooms/rm_BindingsDemo/rm_BindingsDemo.yy",},},
+    {"id":{"name":"spr_AgilityMeter","path":"sprites/spr_AgilityMeter/spr_AgilityMeter.yy",},},
     {"id":{"name":"struct_EventSubscription","path":"scripts/struct_EventSubscription/struct_EventSubscription.yy",},},
     {"id":{"name":"rm_Green","path":"rooms/rm_Green/rm_Green.yy",},},
     {"id":{"name":"ui_RoomGoto","path":"objects/ui_RoomGoto/ui_RoomGoto.yy",},},

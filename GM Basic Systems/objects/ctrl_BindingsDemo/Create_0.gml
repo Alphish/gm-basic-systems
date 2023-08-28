@@ -14,6 +14,9 @@ agi3 = OwnBinding.create(3);
 agi_total = CompositeBinding.create(function(_input) {
     return _input[0] + _input[1] + _input[2];
 }, [agi1, agi2, agi3]);
+agi_tier = CompositeBinding.create(function(_input) {
+    return ceil(_input / 6);
+}, agi_total);
 
 int1 = OwnBinding.create(3);
 int2 = OwnBinding.create(3);

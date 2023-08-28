@@ -33,6 +33,7 @@
     {"id":{"name":"ui_FadeOut","path":"objects/ui_FadeOut/ui_FadeOut.yy",},},
     {"id":{"name":"struct_PropertyBinding","path":"scripts/struct_PropertyBinding/struct_PropertyBinding.yy",},},
     {"id":{"name":"obj_EventDemoSubject","path":"objects/obj_EventDemoSubject/obj_EventDemoSubject.yy",},},
+    {"id":{"name":"ui_StateIcon","path":"objects/ui_StateIcon/ui_StateIcon.yy",},},
     {"id":{"name":"rm_EventsDemo","path":"rooms/rm_EventsDemo/rm_EventsDemo.yy",},},
     {"id":{"name":"fnt_Default","path":"fonts/fnt_Default/fnt_Default.yy",},},
     {"id":{"name":"syspr_Transition","path":"sprites/syspr_Transition/syspr_Transition.yy",},},

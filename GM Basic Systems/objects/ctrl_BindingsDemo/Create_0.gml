@@ -4,6 +4,9 @@ str3 = OwnBinding.create(3);
 str_total = CompositeBinding.create(function(_input) {
     return _input[0] + _input[1] + _input[2];
 }, [str1, str2, str3]);
+str_flag = CompositeBinding.create(function(_input) {
+    return _input >= 15;
+}, str_total);
 
 agi1 = OwnBinding.create(3);
 agi2 = OwnBinding.create(3);

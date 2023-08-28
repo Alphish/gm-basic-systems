@@ -53,6 +53,7 @@
     {"id":{"name":"ui_BindingsDemoRoll","path":"objects/ui_BindingsDemoRoll/ui_BindingsDemoRoll.yy",},},
     {"id":{"name":"rm_Blue","path":"rooms/rm_Blue/rm_Blue.yy",},},
     {"id":{"name":"struct_EventSubject","path":"scripts/struct_EventSubject/struct_EventSubject.yy",},},
+    {"id":{"name":"spr_StronkFlag","path":"sprites/spr_StronkFlag/spr_StronkFlag.yy",},},
     {"id":{"name":"ctrl_BindingsDemo","path":"objects/ctrl_BindingsDemo/ctrl_BindingsDemo.yy",},},
     {"id":{"name":"struct_TransitionBuilder","path":"scripts/struct_TransitionBuilder/struct_TransitionBuilder.yy",},},
     {"id":{"name":"struct_CallbackBinding","path":"scripts/struct_CallbackBinding/struct_CallbackBinding.yy",},},

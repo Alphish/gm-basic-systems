@@ -20,6 +20,7 @@
     {"name":"inst_4176CC9A","path":"rooms/rm_BindingsDemo/rm_BindingsDemo.yy",},
     {"name":"inst_4DF5F23D","path":"rooms/rm_BindingsDemo/rm_BindingsDemo.yy",},
     {"name":"inst_3CF7E1AD","path":"rooms/rm_BindingsDemo/rm_BindingsDemo.yy",},
+    {"name":"inst_78B9DC3B","path":"rooms/rm_BindingsDemo/rm_BindingsDemo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -65,6 +66,11 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_FlagIcon","path":"objects/ui_FlagIcon/ui_FlagIcon.yy",},"propertyId":{"name":"flag","path":"objects/ui_FlagIcon/ui_FlagIcon.yy",},"value":"ctrl_BindingsDemo.str_flag",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_FlagIcon","path":"objects/ui_FlagIcon/ui_FlagIcon.yy",},"propertyId":{"name":"true_sprite","path":"objects/ui_FlagIcon/ui_FlagIcon.yy",},"value":"spr_StronkFlag",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78B9DC3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ui_StateIcon","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_StateIcon","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"propertyId":{"name":"state","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"value":"ctrl_BindingsDemo.str_flag",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_StateIcon","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"propertyId":{"name":"sprites","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"value":"spr_StronkFlag",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ui_StateIcon","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"propertyId":{"name":"images","path":"objects/ui_StateIcon/ui_StateIcon.yy",},"value":"[0, 1]",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":90,"gridY":90,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

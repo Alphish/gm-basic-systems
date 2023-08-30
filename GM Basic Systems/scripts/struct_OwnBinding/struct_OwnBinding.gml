@@ -2,6 +2,7 @@
 /// @desc A standalone binding that stores its own value, without affecting any other values.
 /// @arg {Any} initial      The initial value of the binding.
 function OwnBinding(_initial) : ValueBinding(false) constructor {
+    /// @ignore
     current_value = _initial;
     
     /// @func create(initial)
@@ -14,19 +15,12 @@ function OwnBinding(_initial) : ValueBinding(false) constructor {
     
     /// @ignore
     static check_value = function() {
-        // no binding update to check
+        // the value can only be changed through binding setter
     }
     
-    /// @func get_value()
-    /// @desc Returns the current value of the binding.
-    /// @returns {Any}
-    static get_value = function() {
-        return current_value;
-    }
-    
-    /// func set_value(value)
-    /// @desc Sets the new value to the binding, and sends a value changed event if it's different.
-    /// @arg {Any} value        The new value to set.
+    /// @func set_value(value)
+    /// @desc Sets the bound value.
+    /// @arg {Any} value        The value to set.
     static set_value = function(_value) {
         if (current_value == _value)
             return;

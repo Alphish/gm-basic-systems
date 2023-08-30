@@ -1,17 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ui_BindingsDemoRoll",
+  "name": "ui_StateIcon",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Bindings",
-    "path": "folders/Demo/Bindings.yy",
+    "name": "Display",
+    "path": "folders/_Packages/Alphish/Basic Systems/UI/Display.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,13 +26,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"binding","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"undefined","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state_sprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"undefined","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state_image","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"undefined","varType":4,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_RoomGoto",
-    "path": "sprites/spr_RoomGoto/spr_RoomGoto.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

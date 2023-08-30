@@ -22,8 +22,8 @@ function DescriptionBinding(_format, _bindings) : ValueBinding(true) constructor
     binding_subs = [];
     link_bindings();
     
-    var _input = prepare_input();
-    current_value = string_ext(format, _input);
+    /// @ignore
+    current_value = get_underlying();
     
     /// @func from_args(format,[...bindings])
     /// @desc Creates a description binding for a given format and bindings provided as arguments.
@@ -58,25 +58,10 @@ function DescriptionBinding(_format, _bindings) : ValueBinding(true) constructor
         }));
     }
     
-    /// @func check_value()
-    /// @desc Recalculates the current description, and sends a value changed event if it's different.
-    static check_value = function() {
-        var _input = prepare_input();
-        var _value = string_ext(format, _input);
-        if (_value != current_value) {
-            current_value = _value;
-            when_changed.send(current_value);
-        }
-    }
-    
     /// @ignore
-    static inner_get = function() {
-        return current_value;
-    }
-    
-    /// @ignore
-    static prepare_input = function() {
-        return array_map(bindings, binding_resolve);
+    static get_underlying = function() {
+        var _input = array_map(bindings, binding_resolve);
+        return string_ext(format, _input);
     }
     
     /// @func cleanup()

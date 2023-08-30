@@ -1,3 +1,5 @@
+/// feather ignore GM2043
+
 /// @func PropertyBinding(owner,property,readonly)
 /// @desc A binding to a property of an instance or a struct.
 /// @arg {Struct,Id.Instance} owner     The instance or a struct the bound property belongs to.
@@ -18,7 +20,7 @@ function PropertyBinding(_owner, _property, _readonly) : ValueBinding(_readonly)
     /// @ignore
     property = _property;
     /// @ignore
-    current_value = owner[$ property];
+    current_value = get_underlying();
     
     /// @func create(owner,property)
     /// @desc Creates a readable/writeable binding to a property of an instance or a struct.
@@ -37,16 +39,13 @@ function PropertyBinding(_owner, _property, _readonly) : ValueBinding(_readonly)
     }
     
     /// @ignore
-    static inner_get = function() {
+    static get_underlying = function() {
         return owner[$ property];
     }
     
     /// @ignore
-    static inner_set = function(_value) {
-        if (is_readonly)
-            throw "Cannot set value for a readonly binding.";
-        
-        return owner[$ property] = _value;
+    static set_underlying = function(_value) {
+        owner[$ property] = _value;
     }
 }
 

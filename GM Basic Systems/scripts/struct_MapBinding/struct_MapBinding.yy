@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "struct_AggregateBinding",
+  "name": "struct_MapBinding",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

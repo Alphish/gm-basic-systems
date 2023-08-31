@@ -1,3 +1,1 @@
-SimpleBgm.define("cyber", bgm_Cyber);
-SimpleBgm.define("goofy", bgm_Goofy);
-SimpleBgm.define("jungle", bgm_Jungle);
+SimpleBgm.define_from_sound(bgm_Cyber).with_pitch(2);

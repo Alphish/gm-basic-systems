@@ -1,20 +1,22 @@
-bgm_volume = default_volume;
+current_volume = default_volume;
 is_muted = false;
 
+all_bgms = {};
 bgm_name = undefined;
 bgm_instance = undefined;
-all_bgms = {};
 
 bgm_register = function(_name, _bgm) {
-    if (!is_string(_name))
-        _name = audio_get_name(_name);
-    
     all_bgms[$ _name] = _bgm;
 }
 
 select_bgm = function(_bgm) {
-    if (!is_string(_bgm) && !is_undefined(_bgm))
+    if (!is_string(_bgm) && !is_undefined(_bgm)) {
+        var _sound = _bgm;
         _bgm = audio_get_name(_bgm);
+        if (!struct_exists(all_bgms, _bgm) && auto_define) {
+            SimpleBgm.define(_bgm, _sound);
+        }
+    }
     
     if (_bgm == bgm_name)
         return;
@@ -26,7 +28,7 @@ select_bgm = function(_bgm) {
 
 get_volume = function() {
     if (!is_muted)
-        return bgm_volume;
+        return current_volume;
     else
         return 0;
 }
@@ -60,7 +62,10 @@ do_play = function() {
         return;
     
     bgm_instance = all_bgms[$ bgm_name];
-    bgm_instance.play(bgm_volume / max_volume);
+    if (is_undefined(bgm_instance))
+        throw $"Unknown background music: '{bgm_name}'.";
+    
+    bgm_instance.play(current_volume / max_volume);
 }
 
 do_mute = function() {
@@ -74,6 +79,6 @@ do_unmute = function() {
 }
 
 apply_volume = function(_volume) {
-	bgm_volume = _volume;
-    bgm_instance.apply_volume(bgm_volume / max_volume);
+	current_volume = _volume;
+    bgm_instance.apply_volume(current_volume / max_volume);
 }

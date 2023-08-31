@@ -35,7 +35,7 @@ function bgm_mute() {
 /// @function bgm_unmute()
 /// @desc Unmutes the background music.
 function bgm_unmute() {
-    sys_Bgm.set_volume(sys_Bgm.bgm_volume);
+    sys_Bgm.set_volume(sys_Bgm.current_volume);
 }
 
 /// @function bgm_toggle()

@@ -7,7 +7,7 @@
    viewBox="0 0 16.933333 16.933334"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="Icons.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      units="px"
      inkscape:zoom="1"
-     inkscape:cx="-15"
-     inkscape:cy="-14.5"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="311"
-     inkscape:window-y="1432"
+     inkscape:cx="126.5"
+     inkscape:cy="37"
+     inkscape:window-width="3840"
+     inkscape:window-height="2081"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -268,6 +268,76 @@
          cx="12.699996"
          cy="2.1166658"
          r="0.26458332" />
+    </g>
+    <rect
+       style="fill:#70b4e8;fill-opacity:1;stroke:#000000;stroke-width:0.264582;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect858"
+       width="16.668751"
+       height="16.668751"
+       x="21.298958"
+       y="0.132291"
+       inkscape:export-filename="C:\Omnipocket\Development\GameMaker\Libraries\gm-basic-systems\Graphics\syspr_Transition.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264582;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect860"
+       width="16.668751"
+       height="16.668751"
+       x="21.298958"
+       y="0.132291"
+       inkscape:export-filename="C:\Omnipocket\Development\GameMaker\Libraries\gm-basic-systems\Graphics\syspr_Bgm.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="rect1131"
+       style="fill-opacity:0.6;stroke-width:2.11667;stroke-linecap:square"
+       d="m 27.516667,2.5724529 v 1.0583333 7.2476198 a 2.1166668,1.3229168 0 0 0 -1.058334,-0.17725 2.1166668,1.3229168 0 0 0 -2.116667,1.322916 2.1166668,1.3229168 0 0 0 2.116667,1.322917 2.1166668,1.3229168 0 0 0 2.11305,-1.249536 H 28.575 V 3.7821982 l 5.291667,0.7555095 v 7.3990313 a 2.1166668,1.3229168 0 0 0 -1.058334,-0.17725 2.1166668,1.3229168 0 0 0 -2.116666,1.322917 2.1166668,1.3229168 0 0 0 2.116666,1.322916 2.1166668,1.3229168 0 0 0 2.11305,-1.249536 H 34.925 V 13.082406 4.6891195 3.6307862 Z" />
+    <rect
+       style="fill:#70b4e8;fill-opacity:1;stroke:#000000;stroke-width:0.264582;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2118"
+       width="16.668751"
+       height="16.668751"
+       x="42.465626"
+       y="0.132291"
+       inkscape:export-filename="C:\Omnipocket\Development\GameMaker\Libraries\gm-basic-systems\Graphics\syspr_Transition.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g3006"
+       transform="translate(1.4577294,-0.59582976)">
+      <path
+         id="path2995"
+         style="fill:#000000;fill-opacity:0.6;stroke:none;stroke-width:0.705554;stroke-linecap:square"
+         d="m 49.871374,5.887496 v 1.0583334 a 2.1166668,2.1166668 0 0 1 2.116666,2.1166667 2.1166668,2.1166668 0 0 1 -2.116666,2.1166669 v 1.058333 a 3.1750001,3.1750001 0 0 0 3.175,-3.1749999 3.1750001,3.1750001 0 0 0 -3.175,-3.1750001 z" />
+      <path
+         id="path2997"
+         style="fill:#000000;fill-opacity:0.6;stroke:none;stroke-width:0.423333;stroke-linecap:square"
+         d="m 49.871374,3.7708293 v 1.0583334 a 4.2333337,4.2333337 0 0 1 4.233333,4.2333334 4.2333337,4.2333337 0 0 1 -4.233333,4.2333339 v 1.058333 A 5.2916665,5.2916665 0 0 0 55.16304,9.0624961 5.2916665,5.2916665 0 0 0 49.871374,3.7708293 Z" />
+      <rect
+         style="fill:#000000;fill-opacity:0.6;stroke:none;stroke-width:2.11667;stroke-linecap:square"
+         id="rect2142"
+         width="2.1166668"
+         height="4.2333336"
+         x="43.521503"
+         y="6.9456668" />
+      <path
+         id="rect2224"
+         style="fill-opacity:0.6;stroke-width:2.11667;stroke-linecap:square"
+         d="m 45.638172,6.9456668 3.175,-2.1166667 v 8.4666669 l -3.175,-2.116667 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#000000;fill-opacity:0.6;stroke:none;stroke-width:2.11667;stroke-linecap:square"
+         id="path2566"
+         sodipodi:type="arc"
+         sodipodi:cx="49.87151"
+         sodipodi:cy="9.0623341"
+         sodipodi:rx="1.0583334"
+         sodipodi:ry="1.0583334"
+         sodipodi:start="4.712389"
+         sodipodi:end="1.5707963"
+         sodipodi:arc-type="slice"
+         d="M 49.87151,8.0040007 A 1.0583334,1.0583334 0 0 1 50.929843,9.0623341 1.0583334,1.0583334 0 0 1 49.87151,10.120667 V 9.0623341 Z" />
     </g>
   </g>
 </svg>

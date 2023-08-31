@@ -66,6 +66,7 @@
     {"id":{"name":"ui_FillBar","path":"objects/ui_FillBar/ui_FillBar.yy",},},
     {"id":{"name":"struct_TransitionBuilder","path":"scripts/struct_TransitionBuilder/struct_TransitionBuilder.yy",},},
     {"id":{"name":"struct_CallbackBinding","path":"scripts/struct_CallbackBinding/struct_CallbackBinding.yy",},},
+    {"id":{"name":"syspr_Bgm","path":"sprites/syspr_Bgm/syspr_Bgm.yy",},},
     {"id":{"name":"ui_IconBar","path":"objects/ui_IconBar/ui_IconBar.yy",},},
     {"id":{"name":"struct_SimpleBgm","path":"scripts/struct_SimpleBgm/struct_SimpleBgm.yy",},},
     {"id":{"name":"obj_EventDemoObserver","path":"objects/obj_EventDemoObserver/obj_EventDemoObserver.yy",},},

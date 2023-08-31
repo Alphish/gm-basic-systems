@@ -1,0 +1,3 @@
+Example BGMs are from Eric Matyas' site https://soundimage.org
+
+Example SFXs are taken from https://freesound.org (with possible alterations)

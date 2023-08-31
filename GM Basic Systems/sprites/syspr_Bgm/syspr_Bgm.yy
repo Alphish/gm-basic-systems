@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Audio",
-    "path": "folders/_Packages/Alphish/Basic Systems/Audio.yy",
+    "name": "BGM",
+    "path": "folders/_Packages/Alphish/Basic Systems/Audio/BGM.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

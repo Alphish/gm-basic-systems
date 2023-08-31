@@ -15,7 +15,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Alphish","folderPath":"folders/_Packages/Alphish.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Basic Systems","folderPath":"folders/_Packages/Alphish/Basic Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Audio","folderPath":"folders/_Packages/Alphish/Basic Systems/Audio.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bgm structs","folderPath":"folders/_Packages/Alphish/Basic Systems/Audio/Bgm structs.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BGM","folderPath":"folders/_Packages/Alphish/Basic Systems/Audio/BGM.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Events","folderPath":"folders/_Packages/Alphish/Basic Systems/Events.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transitions","folderPath":"folders/_Packages/Alphish/Basic Systems/Transitions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/_Packages/Alphish/Basic Systems/UI.yy",},

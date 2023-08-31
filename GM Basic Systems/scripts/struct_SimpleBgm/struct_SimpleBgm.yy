@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Bgm structs",
-    "path": "folders/_Packages/Alphish/Basic Systems/Audio/Bgm structs.yy",
+    "name": "BGM",
+    "path": "folders/_Packages/Alphish/Basic Systems/Audio/BGM.yy",
   },
 }

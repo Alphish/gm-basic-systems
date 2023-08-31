@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Audio",
-    "path": "folders/_Packages/Alphish/Basic Systems/Audio.yy",
+    "name": "BGM",
+    "path": "folders/_Packages/Alphish/Basic Systems/Audio/BGM.yy",
   },
   "parentObjectId": null,
   "persistent": true,

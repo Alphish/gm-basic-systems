@@ -43,6 +43,7 @@
     {"id":{"name":"ui_StateIcon","path":"objects/ui_StateIcon/ui_StateIcon.yy",},},
     {"id":{"name":"rm_EventsDemo","path":"rooms/rm_EventsDemo/rm_EventsDemo.yy",},},
     {"id":{"name":"fnt_Default","path":"fonts/fnt_Default/fnt_Default.yy",},},
+    {"id":{"name":"rm_AudioDemo","path":"rooms/rm_AudioDemo/rm_AudioDemo.yy",},},
     {"id":{"name":"syspr_Transition","path":"sprites/syspr_Transition/syspr_Transition.yy",},},
     {"id":{"name":"spr_RoomGoto","path":"sprites/spr_RoomGoto/spr_RoomGoto.yy",},},
     {"id":{"name":"sys_Transition","path":"objects/sys_Transition/sys_Transition.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"struct_CompositeBinding","path":"scripts/struct_CompositeBinding/struct_CompositeBinding.yy",},},
     {"id":{"name":"bgm_Jungle","path":"sounds/bgm_Jungle/bgm_Jungle.yy",},},
     {"id":{"name":"funcs_Binding","path":"scripts/funcs_Binding/funcs_Binding.yy",},},
+    {"id":{"name":"ui_BgmButton","path":"objects/ui_BgmButton/ui_BgmButton.yy",},},
     {"id":{"name":"base_ValueBinding","path":"scripts/base_ValueBinding/base_ValueBinding.yy",},},
     {"id":{"name":"struct_DescriptionBinding","path":"scripts/struct_DescriptionBinding/struct_DescriptionBinding.yy",},},
     {"id":{"name":"ui_FlagIcon","path":"objects/ui_FlagIcon/ui_FlagIcon.yy",},},
@@ -85,6 +87,7 @@
     {"roomId":{"name":"rm_Blue","path":"rooms/rm_Blue/rm_Blue.yy",},},
     {"roomId":{"name":"rm_EventsDemo","path":"rooms/rm_EventsDemo/rm_EventsDemo.yy",},},
     {"roomId":{"name":"rm_BindingsDemo","path":"rooms/rm_BindingsDemo/rm_BindingsDemo.yy",},},
+    {"roomId":{"name":"rm_AudioDemo","path":"rooms/rm_AudioDemo/rm_AudioDemo.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
